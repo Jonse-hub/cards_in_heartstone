@@ -1,0 +1,51 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body {
+    padding: 10px;
+    
+}
+ul {
+    list-style-type:none;
+    text-decoration: none;
+    padding: 0;
+}
+.rarity-1 {
+    color: #0faf03!important;
+}
+.rarity-3 {
+    color: #198eff!important;
+}
+.rarity-4 {
+    color: #ab48ee!important;
+}
+.rarity-5 {
+    color: #f07000!important;
+}
+
+.tip{
+    cursor: default;
+    border-color: #a2a2a2;
+}
+a {
+    color: #832323;
+    text-decoration: none;
+}
+table, th, td {
+    border: 1px solid burlywood;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 5px;
+    vertical-align: top;
+}
+table{
+    width:100%;
+}
+
+/*
+.b-table-a td a, .b-shoutbox-a .shoutbox-messages>table.listing td a, .b-table-a td a:visited, .b-shoutbox-a .shoutbox-messages>table.listing td a:visited, .b-table-a td a:active, .b-shoutbox-a .shoutbox-messages>table.listing td a:active {
+    color: #982525;
+}*/
